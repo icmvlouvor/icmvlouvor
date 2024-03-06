@@ -1,16 +1,17 @@
 body {
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(15, 15, 15);
 }
 .intro {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 80px;
+    /* padding-top: 90px;
+    padding-bottom: 90px; */
     background-image: url(imagens/guitar\ 2.jpeg) ;
     background-size: cover;
 }
 .intro h1 {
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 50px;
 }
 .intro p {
     text-align: center;
@@ -19,13 +20,14 @@ body {
 .playlist_video {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 75px;
-    width: 90%;
-    max-width: 500px ;
-    
+    margin-top: 120px;
+    width: 95%;
+    max-width: 700px ;
+    box-shadow: 0px 0px 90px rgba(185, 185, 185, 0.2);
+
 }
 .menu {
-    margin-top: 75px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 .playlist {
@@ -70,8 +72,6 @@ body {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 footer {
     text-align: center;
